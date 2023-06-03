@@ -80,7 +80,7 @@ export default function Home() {
             <div onClick={() => handleChange("0")} className="bg-gray-200 shadow-md rounded-2xl w-full h-24 text-black font-medium flex justify-center items-center">0</div>
             <div className="flex w-full ml-3 justify-between">
               <div onClick={() => handleChange(".")} className="bg-gray-200 shadow-md rounded-2xl w-24 h-24 text-black font-medium flex justify-center items-center">.</div>
-              <div onClick={() => calClick()} className="bg-blue-500 shadow-md rounded-2xl w-24 h-24 text-white font-medium text-xl flex justify-center items-center">=</div>
+              <div onClick={() => calClick()} className="bg-green-500 shadow-md rounded-2xl w-24 h-24 text-white font-medium text-xl flex justify-center items-center">=</div>
             </div>
           </div>
           <div className="flex justify-center mt-5">
